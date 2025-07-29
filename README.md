@@ -3,7 +3,7 @@
 This Python script batch-converts multiple `.geojson` files into `.kml` format using only built-in Python libraries — no external dependencies required.
 
 Designed to be run inside the **QGIS Python Console**, it supports:
-- `Point` geometries
+- `Point`,`LineString` and `Polygon` geometries (no `multi` formats)
 - Reading `name` and `description` fields from GeoJSON properties
 - User-friendly folder selection for input and output directories
 - Clean KML output suitable for use in Google Earth, MyMaps, etc.
